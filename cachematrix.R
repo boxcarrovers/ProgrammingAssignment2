@@ -15,7 +15,7 @@
   get <- function () x
   setinverse <- function(solve) m <<- solve
   getinverse <- function() m
-  list(setcache=setcache, get=get, setinverse=setinverse, getinverse=getinverse)
+  list(set=set, get=get, setinverse=setinverse, getinverse=getinverse)
   }
   
   cacheinverse <- function(x,...) {
